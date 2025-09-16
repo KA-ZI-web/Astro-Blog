@@ -1,4 +1,10 @@
-[[redirects]]
-  from = "/*"
-  to = "/:splat/index.html"
-  status = 200
+[
+    build
+]
+  command = "pnpm run build"  # 构建命令
+  publish = "dist"        # 输出目录
+
+[
+    build.environment
+]
+  NETLIFY_USE_PNPM = "true"  # 强制使用 pnpm（关键！）
