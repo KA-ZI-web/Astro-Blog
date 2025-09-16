@@ -1,10 +1,8 @@
-[
-    build
-]
-  command = "pnpm run build"  # 构建命令
-  publish = "dist"        # 输出目录
+# 标准 Netlify 构建配置（英文键名 + 正确区块格式）
+[build]
+  command = "pnpm run build"  # 构建命令（必须与 package.json 一致）
+  publish = "dist"            # 输出目录（Astro 构建产物路径）
 
-[
-    build.environment
-]
-  NETLIFY_USE_PNPM = "true"  # 强制使用 pnpm（关键！）
+# 强制 Netlify 使用 pnpm（你的项目依赖 pnpm）
+[build.environment]
+  NETLIFY_USE_PNPM = "true"
