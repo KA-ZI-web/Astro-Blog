@@ -2,13 +2,12 @@
 title: git 基础操作
 published: 2025-04-01
 description: "How to use git"
-image: "./cover.jpeg"
+image: "./cover.png"
 tags: ["git"]
 category: git
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
 
 # **Git 远程仓库学习笔记**
 这是一篇从零开始的小白学习 Git 的学习笔记。

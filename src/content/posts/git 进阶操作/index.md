@@ -2,23 +2,22 @@
 title: git 进阶操作
 published: 2025-06-10
 description: "How to use git"
-image: "./cover.jpeg"
+image: "./cover.jpg"
 tags: ["git",]
 category: git
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
 
 # **目录**
 <!-- vscode-markdown-toc -->
-* 1. [**1、分支(branch)**](#1branch)
-* 2. [**2、仓库（remote）**](#2remote)
-* 3. [**3、冲突处理**](#3-1)
-* 4. [**4、忽略文件**](#4-1)
-* 5. [**5、撤销**](#5-1)
+* 1. [**分支(branch)**](#1branch)
+* 2. [**仓库（remote）**](#2remote)
+* 3. [**冲突处理**](#3-1)
+* 4. [**忽略文件**](#4-1)
+* 5. [**撤销**](#5-1)
 * 6. [**以下是我遇到过的问题和如何解决的**](#-1)
-	* 6.1. [**-更新远程仓库内容到本地仓库**](#-)
+	* 6.1. [**更新远程仓库内容到本地仓库**](#-)
 	* 6.2. [**合并远程仓库分支**](#-1)
 
 
